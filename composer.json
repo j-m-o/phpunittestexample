@@ -1,0 +1,23 @@
+{
+    "name": "JMo/test-composer",
+    "description": "test composer package eva",
+    "type": "library",
+    "require": {
+        "php": ">=7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JMo",
+            "email": "hello@jessicamosley.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JMo\\TestComposer\\": "./src"
+        }
+    }
+}
